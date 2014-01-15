@@ -87,3 +87,10 @@ function lyman_rt_env()
 source ~/.env/.lyman_rtsmoking_environment
 
 }
+
+function mghpcc_env()
+{
+
+source ~/.env/.mghpcc_environment
+
+}

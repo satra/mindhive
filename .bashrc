@@ -15,7 +15,7 @@ fi
 alias ls="ls --color=auto"
 
 # Setup the torque parallelization queue:
-if [ $BASH ] && [[ $TERM == xterm* ]]
+if [ $BASH ] && [[ $TERM == xterm* ]] && [[ `hostname` == 'ba3.mit.edu' ]]
 then
     source /etc/profile.d/modules.sh
     export LIBGL_ALWAYS_INDIRECT=yes
